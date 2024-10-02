@@ -1,0 +1,11 @@
+** factory design pattern
+-- Its a interface or methods for creating objects without specifying the exact class of object that will be created.
+This type patterns are usefull when the exact type of object is'nt known until runtime, when there are multiple
+possible classes that could be instantiated depending on some conditions.
+
+-- i.e The methods which are responsible for creation and retunring the object.
+
+** Key points of the Factory Design Pattern:
+-- Encapsulation of object creation: The logic for creating objects is moved to the factory, making code more modular and easier to manage.
+-- Loose coupling: The client code depends on abstractions (e.g., interfaces) rather than concrete classes, promoting flexibility.
+-- Single Responsibility Principle: A factory class has the sole responsibility of creating objects, helping to maintain clean separation of concerns.
